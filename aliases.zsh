@@ -23,6 +23,5 @@ alias rr="rake routes"
 alias rdm="rake db:migrate"
 alias rdtp="rake db:test:prepare"
 alias rdr="rake db:rollback"
-
-
+alias rds="rake db:seed"
 
