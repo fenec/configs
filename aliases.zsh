@@ -20,7 +20,7 @@ alias gdb="git delete-branch"
 alias r="rails"
 
 alias rr="rake routes"
-alias migrate="rake db:migrate db:rollback && rake db:migrate db:test:prepare"
+alias rdm="rake db:migrate db:rollback && rake db:migrate db:test:prepare"
 alias rdtp="rake db:test:prepare"
 alias rdr="rake db:rollback"
 alias rds="rake db:seed"
