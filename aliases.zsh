@@ -15,6 +15,7 @@ alias ga="git add"
 alias gaa="git add -A"
 alias gm="git merge"
 alias gdb="git delete-branch"
+alias gss="git stash show -p"
 
 # Rails
 alias r="rails"
