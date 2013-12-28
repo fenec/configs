@@ -13,9 +13,14 @@ alias gst="git stash"
 alias gsp="git stash pop"
 alias ga="git add"
 alias gaa="git add -A"
+alias gau="git add -u"
 alias gm="git merge"
 alias gdb="git delete-branch"
 alias gss="git stash show -p"
+alias grm="git rebase master"
+
+# System
+alias psgrep='ps aux | grep $(echo $1 | sed "s/^\(.\)/[\1]/g")'
 
 # Rails
 alias r="rails"
@@ -26,3 +31,7 @@ alias rdtp="rake db:test:prepare"
 alias rdr="rake db:rollback"
 alias rds="rake db:seed"
 
+# Projects
+
+alias spike="~/job/spike"
+alias agg="~/job/aggregator"
