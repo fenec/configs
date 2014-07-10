@@ -18,6 +18,7 @@ alias gm="git merge"
 alias gdb="git delete-branch"
 alias gss="git stash show -p"
 alias grm="git rebase master"
+alias grmc="git rm -r --cached ."
 
 # System
 alias psgrep='ps aux | grep $(echo $1 | sed "s/^\(.\)/[\1]/g")'
@@ -31,7 +32,3 @@ alias rdtp="rake db:test:prepare"
 alias rdr="rake db:rollback"
 alias rds="rake db:seed"
 
-# Projects
-
-alias spike="~/job/spike"
-alias agg="~/job/aggregator"
