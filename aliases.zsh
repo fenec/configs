@@ -19,6 +19,8 @@ alias gdb="git delete-branch"
 alias gss="git stash show -p"
 alias grm="git rebase master"
 alias grmc="git rm -r --cached ."
+alias gr="git rebase"
+alias gchb="git checkout -b $1"
 
 # System
 alias psgrep='ps aux | grep $(echo $1 | sed "s/^\(.\)/[\1]/g")'
