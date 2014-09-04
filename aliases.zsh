@@ -26,6 +26,11 @@ alias grh="git reset --hard"
 alias gr="git rebase"
 alias gdh="git diff HEAD"
 
+alias bi="bundle install"
+
+# System
+alias psgrep='ps aux | grep $(echo $1 | sed "s/^\(.\)/[\1]/g")'
+
 # Rails
 alias r="rails"
 alias rs="rails s"
