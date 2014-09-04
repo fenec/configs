@@ -3,7 +3,7 @@ alias g="git"
 alias gc="git commit"
 alias gca="git commit -a"
 alias gch="git checkout"
-alias gp="git pull"
+alias gp="git pull --rebase"
 alias gpu="git push"
 alias gs="git status"
 alias gd="git diff"
@@ -21,16 +21,19 @@ alias grm="git rebase master"
 alias grmc="git rm -r --cached ."
 alias gr="git rebase"
 alias gchb="git checkout -b $1"
-
-# System
-alias psgrep='ps aux | grep $(echo $1 | sed "s/^\(.\)/[\1]/g")'
+alias grc="git rebase --continue"
+alias grh="git reset --hard"
+alias gr="git rebase"
+alias gdh="git diff HEAD"
 
 # Rails
 alias r="rails"
+alias rs="rails s"
+
+# Rspec
+alias rsp="rspec spec --tag=focus"
 
 alias rr="rake routes"
-alias rdm="rake db:migrate db:rollback && rake db:migrate db:test:prepare"
-alias rdtp="rake db:test:prepare"
+alias rdm="rake db:migrate && rake db:migrate RAILS_ENV=test"
 alias rdr="rake db:rollback"
 alias rds="rake db:seed"
-
