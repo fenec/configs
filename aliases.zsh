@@ -22,7 +22,7 @@ alias grmc="git rm -r --cached ."
 alias gr="git rebase"
 alias gchb="git checkout -b $1"
 alias grc="git rebase --continue"
-alias grh="git reset --hard"
+alias grH="git reset --hard"
 alias gr="git rebase"
 alias gdh="git diff HEAD"
 
