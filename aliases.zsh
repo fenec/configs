@@ -33,6 +33,8 @@ alias grc="git rebase --continue"
 alias grH="git reset --hard"
 alias grmc="git rm -r --cached ."
 
+alias gx="gitx --all"
+
 
 alias bi="bundle install"
 
